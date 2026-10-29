@@ -1,0 +1,12 @@
+node_modules
+.next
+.env
+.env.*
+**/.env
+**/.env.*
+.DS_Store
+npm-debug.log*
+backend/uploads/
+backend/node_modules/
+frontend/node_modules/
+frontend/.next/

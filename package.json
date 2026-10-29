@@ -1,0 +1,24 @@
+{
+  "name": "PromptToInvoice",
+  "version": "1.0.0",
+  "description": "AI-Powered Invoice Generator for US/Europe Market",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "invoice",
+    "ai",
+    "gemini",
+    "jwt",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
